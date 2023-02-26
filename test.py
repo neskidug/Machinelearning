@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 mnist = fetch_openml("mnist_784", as_frame=False, parser = "auto")
 
 X, y = mnist.data, mnist.target
-# print(X,y)
+print(X,y)
 
 
 
